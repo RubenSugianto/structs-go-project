@@ -36,7 +36,17 @@ func main() {
 	// jimPointer.updateName("jimmy")
 	jim.updateName("jimmy")
 	jim.print()
+
+	// mySlice := []string{"Hi", "There", "How", "Are", "You"}
+
+	// updateSlice(mySlice)
+
+	// fmt.Println(mySlice)
 }
+
+// func updateSlice(s []string) {
+// 	s[0] = "Bye"
+// }
 
 func (pointerToPerson *person) updateName(newFirstName string) {
 	(*pointerToPerson).firstName = newFirstName
